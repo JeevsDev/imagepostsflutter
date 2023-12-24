@@ -32,7 +32,7 @@ class MyHomePage extends StatelessWidget {
         title: Row(
           children: [
             IconButton(
-              icon: Icon(Icons.camera_alt),
+              icon: Icon(Icons.camera_alt_outlined),
               onPressed: () {},
             ),
             Text('Catstagram'),
@@ -164,6 +164,7 @@ class _PostWidgetState extends State<PostWidget> {
           Container(
             height: 200.0,
             width: 250.0,
+            padding: EdgeInsets.only(top: 8.0),
             child: PageView.builder(
               controller: _pageController,
               itemCount: widget.images.length,
@@ -210,7 +211,7 @@ class _PostWidgetState extends State<PostWidget> {
                 IconButton(
                   onPressed: () {}, 
                   icon: Icon(Icons.send)
-                )
+                ),
               ],
             ),
           ),
@@ -218,7 +219,7 @@ class _PostWidgetState extends State<PostWidget> {
             dotsCount: widget.images.length,
             position: _currentIndex.round(),
             decorator: DotsDecorator(
-              color: Colors.grey, 
+              color: Colors.grey,
               activeColor: Colors.blue,
               size: Size.fromRadius(2),
             ),
@@ -229,3 +230,4 @@ class _PostWidgetState extends State<PostWidget> {
     );
   }
 }
+
