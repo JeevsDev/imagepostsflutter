@@ -1,16 +1,18 @@
 # imagepostsflutter
 
-A new Flutter project.
+A new Flutter project to demonstrate image caching, lazy loading and multiple image slider.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Clone this project and you're all set to go!
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Queries?? Mail me @ jeevandevasiajohn@gmail.com
+
+
+## Screenshots
+
+![Screenshot_1703387438](https://github.com/JeevsDev/imagepostsflutter/assets/96291802/4fbf11a5-bb75-4121-8203-9e8e03e19a3f)
+
+![Screenshot_1703387454](https://github.com/JeevsDev/imagepostsflutter/assets/96291802/299208e1-d18a-42f0-85b1-6e0ea05e41a9)
